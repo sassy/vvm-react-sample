@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "style-build": "style-dictionary build --config style-dictionary/config.json",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
     "globals": "^16.0.0",
     "sass": "^1.87.0",
     "sass-loader": "^16.0.5",
+    "style-dictionary": "^4.4.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
     "vite": "^6.3.1"
