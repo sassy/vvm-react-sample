@@ -1,7 +1,8 @@
-import React, { ReactNode } from 'react';
+import React, { ReactElement } from 'react';
+import { ListItem } from '../ListItem';
 
 type ListProps = {
-    children: ReactNode;
+    children: ReactElement<typeof ListItem> | ReactElement<typeof ListItem>[];
 };
 
 export const List: React.FC<ListProps> = ({ children }) => {
