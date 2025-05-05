@@ -1,7 +1,7 @@
 import React from 'react';
 import { List } from '../../components/List';
 import { ListItem } from '../../components/ListItem';
-import { useViewModel } from './hooks/useViewModel';
+import { useViewModel } from '../../viewmodels/Tasks/useViewModel';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 
